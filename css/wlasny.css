@@ -1,0 +1,321 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2014, 12:18:43 AM
+    Author     : Gieroj
+*/
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+
+
+
+#logo_naglowek{
+    padding: 10px;
+}
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.navbar-fly{
+     position: static;
+  top: 55px;
+}
+
+.my_navbar-fixed-top{  
+    top:0;
+    position:fixed;
+    width: 100%;
+    height:50px;
+    z-index: 99;
+}
+
+.my_navbar-fixed-top .container{
+    padding-left:30px;
+}
+
+.dmbs-footer{
+    background-color: #222222;
+    width: 100%;
+    z-index: 0;
+}
+.srodkowa_czesc{
+    position: relative;
+    background-color: #ffffff;
+}
+@media (min-width: 1200px) {
+.dmbs-footer{
+    background-color: #222222;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 0;
+    padding-top: 10px;
+}
+.srodkowa_czesc{
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    margin-bottom: 391px;
+}
+.footer_free_places{
+    width:100%;
+    height:200px;
+    z-index: 0;
+}
+}
+
+.footer_free_places{
+    width:100%;
+    height:200px;
+    z-index: 0;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.gorna_czesc{
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.footer_gallery{
+   padding-top: 10px; 
+}
+
+.dmbs-footer{
+    color:#888;
+}
+
+.dmbs-author-credits, .dmbs-author-credits div{
+    background-color:#4F4F4F;
+    width: 100%;
+}
+.dmbs-author-credits{
+    padding: 10px 0px;
+}
+
+.gieroj_footer{
+    padding-bottom: 15px;
+}
+
+.dmbs-footer a{
+    color:#ddd;
+     
+}
+
+.dmbs-footer a:hover{
+    color: #eee;
+    text-decoration: none;
+    text-shadow:0px 0px 1px #ccc;
+}
+
+.gieroj_footer ul li p{
+    font-size: 16px;
+}
+
+.mp_gallery img:hover{
+    transform: scale(1.15);
+    opacity: 0.8;
+}
+.mp_gallery .mp_gallery_img_border{
+    width:80px;
+    height:80px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.gieroj_srodek_stable{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/highway_abc2.jpg);
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #222222;
+    opacity: 0.5;
+    filter: alpha(opacity=70);
+    position: absolute;
+    top: 0px;
+    /*top: 69px;*/
+    left: 0px;
+}
+
+.gieroj_srodek_stable_container{
+    background-color: #000;
+    margin-bottom: 15px;
+}
+
+.gieroj_srodek_stable_table{
+    color: #fff;
+    padding-top:10px;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+   .gieroj_srodek_stable_table{
+       padding-top:25px;
+   }
+}
+
+.gieroj_srodek_stable_container2{
+    position:relative;
+    height: 500px;
+    margin:auto;
+}
+.gieroj_img-circle{
+    background-color: #222;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 26px;
+    padding-top: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gieroj_img-circle:hover{
+    background-color: #ff0000;
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    padding-top: 21px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.gieroj_srodek_stable_table h3{
+    border-bottom: 3px solid #eee;
+}
+
+.gieroj_img-circle_seo{
+    color: #fff;
+    background-color: #222;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 26px;
+    padding-top: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gieroj_srodek_seo_table:hover .gieroj_img-circle_seo{
+    background-color: #ff0000;
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    padding-top: 21px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.gieroj_srodek_seo_table h3{
+    border-bottom: 3px solid #888888;
+}
+
+.gieroj_srodek_header{
+    color: #fff;
+    background-color: none;
+}
+
+.gieroj_srodek_seo_table p{
+    max-width: 310px;
+    margin:auto;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.gieroj_srodek_seo_table h3{
+    color: #333;
+}
+
+.gieroj_srodek_seo_table a:hover {
+    text-decoration: none;
+}
+
+.gieroj_srodek_seo_table a:hover .read_more{
+    text-decoration: underline;
+}
+
+.zwykla_strona{
+    padding : 15px;
+}
+
+.gieroj_img-circle{
+    color: #fff;
+    background-color: #222;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 26px;
+    padding-top: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gieroj_srodek_stable_table:hover .gieroj_img-circle{
+    background-color: #ff0000;
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    padding-top: 21px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+.gieroj_srodek_stable_table p{
+    max-width: 310px;
+    margin:auto;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+.gieroj_srodek_stable_table h3{
+    color: #fff;
+}
+
+.gieroj_srodek_stable_table a:hover {
+    text-decoration: none;
+}
+
+.gieroj_srodek_stable_table a:hover .read_more{
+    text-decoration: underline;
+}
+.gieroj_srodek_stable_container {
+        height:1070px;
+}
+@media (min-width: 768px) {
+    .gieroj_srodek_stable_container {
+        height:500px;
+    }
+}
+.size-full{    
+    width: 100%;
+    float:left;
+    position:relative;
+}
+.single_post{
+    padding-bottom:20px;
+}
+
+.list_title{
+    text-align: center;
+}
+.entry-thumbnail.col-md-4 img{
+    margin-left:18px;
+}
